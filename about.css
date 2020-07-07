@@ -1,0 +1,138 @@
+    * {
+        box-sizing: border-box;
+        padding: 100;
+        margin: 100;
+    }
+    
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    main {
+        margin-bottom: 100px;
+        padding: 30px 20px;
+    }
+    
+    strong {
+        color: rgb(11, 202, 228);
+        text-decoration: underline;
+    }
+    /*navigation bar starting*/
+    
+    nav a {
+        text-decoration: none;
+        text-align: center;
+        color: rgba(90, 88, 88, 0.835);
+    }
+    
+    nav ul {
+        width: auto;
+        float: right;
+        margin-top: 5px;
+    }
+    
+    nav li {
+        display: inline-block;
+        padding: 8px 30px;
+    }
+    
+    .active {
+        color: rgb(22, 26, 26);
+        float: left;
+        padding: 15px 30px;
+    }
+    
+    .navebar-header {
+        padding: 20px 8px;
+        margin: 21px;
+    }
+    
+    .container {
+        min-height: 70px;
+        min-width: 100%;
+        border: 2px solid rgba(90, 88, 88, 0.2);
+        padding: 2px 15px;
+        position: fixed;
+        flex: auto;
+    }
+    /*main start*/
+    
+    main li {
+        display: inline-block;
+        padding: 8px 30px;
+        font-size: 40px;
+        color: gray;
+    }
+    /*column and rows*/
+    
+    .containertwo {
+        min-height: 50px;
+        min-width: 80%;
+        width: 160px;
+        margin: auto;
+        max-width: 95%;
+        margin-top: 100px;
+    }
+    
+    .column-left {
+        float: left;
+        width: 33.333%;
+    }
+    
+    .column-right {
+        float: right;
+        width: 33.333%;
+    }
+    
+    .column-center {
+        padding: 100 50px;
+        display: inline-block;
+        width: 33.333%;
+    }
+    
+    .thumbnail {
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
+    /*footer*/
+    /*footer*/
+    
+    footer {
+        color: rgba(65, 60, 60, 0.781);
+        background-color: #26272b;
+        padding: 150px 80px;
+        font-size: 20px;
+        line-height: 24px;
+        color: #f1eaea;
+        max-height: 60px;
+        max-width: 100%;
+        bottom: 0;
+        top: 10px;
+    }
+    
+    footer li {
+        color: rgb(236, 222, 222);
+    }
+    
+    .first {
+        float: left;
+        padding: 10px 80px;
+    }
+    
+    .second {
+        padding: 10px 80px;
+        height: 5px;
+    }
+    
+    .third {
+        float: right;
+        padding: 10px 20px;
+        height: 5px;
+    }
+    
+    .contain {
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+    }

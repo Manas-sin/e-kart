@@ -1,0 +1,38 @@
+/*navigation bar starting*/
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: rgba(90, 88, 88, 0.835);
+}
+
+nav ul {
+    width: auto;
+    float: right;
+    margin-top: 5px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 8px 30px;
+}
+
+.actives {
+    color: rgb(22, 26, 26);
+    float: left;
+    padding: 15px 30px;
+}
+
+.navebar-headers {
+    padding: 20px 8px;
+    margin: 21px;
+}
+
+.containers {
+    min-height: 70px;
+    min-width: 100%;
+    border: 2px solid rgba(90, 88, 88, 0.2);
+    padding: 2px 15px;
+    position: fixed;
+    flex: auto;
+}
